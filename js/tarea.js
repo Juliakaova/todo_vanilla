@@ -37,7 +37,7 @@ class Tarea{
 
         //boton estado
         let botonEstado = document.createElement("button");
-        botonEstado.className = `estado ${estado ? "terminado" : ""}`;//true : false
+        botonEstado.className = `estado ${estado ? "terminada" : ""}`;//true : false
         botonEstado.appendChild(document.createElement("span"));
 
         botonEstado.addEventListener("click", () => {
